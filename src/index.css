@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+.testimonial{
+  background:linear-gradient(180deg,#fff,#9ed7ff);
+  box-shadow: 0 8px 24px #075c9859;
+  border: 2px solid #a2d6fb;
+  border-radius: 8px;
+
+}
