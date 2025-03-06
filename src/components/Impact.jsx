@@ -35,7 +35,7 @@ function Impact() {
           <img
             src={impactvd}
             alt='Impact Video'
-            className='absolute top-[6.5%]  left-[18%]  w-[63.5%]   rounded-2xl object-contain -z-[1]'
+            className='absolute top-[18%] sm:top-[14%] md:top-[14%] lg:top-[11%] xl:top-[10%]  left-[18%]  w-[63.5%]   rounded-2xl object-contain -z-[1]'
           />
                       <FaPlay onClick={()=>setOpen(true)} className='absolute top-1/3 left-1/2 transform -translate-y-1/3 -translate-x-1/2  text-white text-4xl bg-[#7e8c94] px-8 hover:bg-[#0dcaf0] cursor-pointer  rounded-full h-24 w-24  ' />
           

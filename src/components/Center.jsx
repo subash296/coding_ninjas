@@ -8,7 +8,7 @@ import life from '../assets/life.png'
 
 function Center() {
   return (
-    <div style={{backgroundImage:`url(${center1})`}}  className='h-screen relative object-cover object-center '>
+    <div style={{backgroundImage:`url(${center1})`}}  className='h-screen relative bg-cover '>
         <div className='flex flex-col items-center justify-center gap-3 h-full'>
             <h2 className='text-5xl font-bold text-white uppercase'>Unleash their</h2>
             <h3 className='text-5xl font-bold text-[#187abf] uppercase'>inner ninja</h3>

@@ -16,7 +16,7 @@ function Offer() {
         <h3 className='text-4xl font-bold text-center uppercase mb-10 '>Year round <span className=' font-bold text-[#6610f2] text-4xl mb-8 '>programs</span></h3>
       
         <div style={{backgroundImage:`url(${bg1})`}} className=' w-full bg-cover   h-auto'>
-          <div style={{backgroundImage:`url(${gradient1})`}} className=' w-full bg-cover bg-center pt-14 h-full  md:flex  px-20 py-3' >
+          <div style={{backgroundImage:`url(${gradient1})`}} className=' w-full bg-cover bg-[#1a69b892] bg-opacity-50 bg-center pt-14 h-full  md:flex  px-20 py-3' >
             <motion.div  whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition= {{type: "spring",stiffness: 100,delay : 0.5 }} className='w-full md:w-1/2'>
               <img src={offer1} alt="offer1" className='max-h-96' />
             </motion.div>
@@ -35,7 +35,8 @@ function Offer() {
 
         </div>
         <div style={{backgroundImage:`url(${bg2})`}} className=' w-full bg-cover   h-auto'>
-          <div style={{backgroundImage:`url(${gradient2})`}} className=' w-full bg-cover bg-center pt-14 h-full md:flex py-3 px-20' >
+          <div style={{backgroundImage:`url(${gradient2})`}} className=' w-full bg-cover bg-center bg-[#7b196f5e]  pt-14 h-full md:flex py-3 px-20' >
+           
             <motion.div  whileInView={{opacity:1,x:0}} initial={{opacity:0,x:50}} transition= {{type: "spring",stiffness: 100,delay : 0.5 }} className='w-full md:w-1/2 md:order-4'>
               <img src={offer2} alt="offer1" className='max-h-96' />
             </motion.div>
@@ -49,6 +50,7 @@ function Offer() {
             Learn More
           </button>
             </motion.div>
+        
 
           </div>
 
